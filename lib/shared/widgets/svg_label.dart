@@ -1,10 +1,11 @@
 import 'package:flutter/widgets.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../colors.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class SvgLabel extends StatelessWidget {
-   const SvgLabel({Key? key, 
+  const SvgLabel({
+    Key? key,
     required this.assetName,
     required this.label,
   }) : super(key: key);

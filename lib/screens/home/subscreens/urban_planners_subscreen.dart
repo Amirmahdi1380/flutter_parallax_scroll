@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../shared/colors.dart';
 import 'package:google_fonts/google_fonts.dart';
+import '../../../shared/colors.dart';
 
 class UrbanPlannersSubscreen extends StatelessWidget {
   const UrbanPlannersSubscreen({
@@ -18,7 +18,7 @@ class UrbanPlannersSubscreen extends StatelessWidget {
       children: [
         const SizedBox(height: 200),
         Text(
-          'Lots. For little'.toUpperCase(),
+          'Hi , welcome to my app'.toUpperCase(),
           textAlign: TextAlign.center,
           style: GoogleFonts.nunito(
             color: CustomColors.textGreen,
@@ -28,11 +28,11 @@ class UrbanPlannersSubscreen extends StatelessWidget {
         ),
         const SizedBox(height: 22),
         Text(
-          'Urban \nPlanners',
+          'Amirmahdi \Nourkazemi',
           textAlign: TextAlign.center,
           style: GoogleFonts.poppins(
             color: CustomColors.headerText,
-            fontSize: 60,
+            fontSize: 50,
             fontWeight: FontWeight.w800,
             height: .9,
           ),
@@ -47,7 +47,7 @@ class UrbanPlannersSubscreen extends StatelessWidget {
         ),
         const SizedBox(height: 25),
         Text(
-          'Location matters as much as \nyour house, we focus on the \nwhole experience of real estate.',
+          'Experienced Flutter developer\n with two years of expertise \n in creating apps',
           textAlign: TextAlign.center,
           style: GoogleFonts.nunito(
             color: CustomColors.text,
@@ -89,7 +89,7 @@ class UrbanPlannersSubscreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Text(
-              'Get the \nbest view',
+              'My Skills',
               textAlign: TextAlign.left,
               style: GoogleFonts.poppins(
                 color: CustomColors.headerText,
@@ -100,7 +100,7 @@ class UrbanPlannersSubscreen extends StatelessWidget {
             ),
             const SizedBox(height: 16),
             Text(
-              'We know all the \nsweet spots \nin your region.',
+              'Proficient in Dart,\nFlutter, Flutter web\nBloc for state \n management,\n',
               style: GoogleFonts.nunito(
                 color: CustomColors.text,
                 fontSize: 20,

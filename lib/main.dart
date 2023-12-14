@@ -19,6 +19,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      // themeMode: ThemeMode.dark,
+      color: Colors.black,
       title: 'Flutter Parallax Scroll',
       debugShowCheckedModeBanner: false,
       home: HomeScreen(),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../../shared/colors.dart';
 import '../../../shared/widgets.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class BenefitsSubscreen extends StatelessWidget {
   const BenefitsSubscreen({
@@ -18,7 +18,7 @@ class BenefitsSubscreen extends StatelessWidget {
       children: [
         const SizedBox(height: 200.0),
         Text(
-          'All inclusive estate'.toUpperCase(),
+          'All you know'.toUpperCase(),
           style: GoogleFonts.nunito(
             color: CustomColors.textGreen,
             fontSize: 19,
@@ -27,10 +27,10 @@ class BenefitsSubscreen extends StatelessWidget {
         ),
         const SizedBox(height: 22),
         Text(
-          'Benefits',
+          'Experiences',
           style: GoogleFonts.poppins(
             color: CustomColors.headerText,
-            fontSize: 60,
+            fontSize: 45,
             fontWeight: FontWeight.w800,
             height: .9,
           ),
@@ -45,43 +45,54 @@ class BenefitsSubscreen extends StatelessWidget {
         ),
         const SizedBox(height: 25),
         Text(
-          'Get the most out of your buck,\nwe know the best spots.',
+          'Enhanced app downloads by simplifying the program \nand creating a more responsive user experience.',
           textAlign: TextAlign.center,
           style: GoogleFonts.nunito(
             color: CustomColors.text,
-            fontSize: 25,
+            fontSize: 15,
             fontWeight: FontWeight.w500,
             height: 1.2,
           ),
         ),
-        const SizedBox(height: 50),
+        const SizedBox(height: 20),
         Text(
-          'We don\'t just find prime quality \nfor affordable prices, we also find\n the right community for you.',
+          'Created a user-friendly application interface\nby integrating captivating animations using Rive.',
+          textAlign: TextAlign.center,
+          style: GoogleFonts.nunito(
+            color: CustomColors.text,
+            fontSize: 15,
+            fontWeight: FontWeight.w500,
+            height: 1.2,
+          ),
+        ),
+        const SizedBox(height: 20),
+        Text(
+          'for more you can see my profile',
           textAlign: TextAlign.center,
           style: GoogleFonts.nunito(
             color: CustomColors.text,
             fontSize: 20,
-            fontWeight: FontWeight.w500,
+            fontWeight: FontWeight.w700,
             height: 1.2,
           ),
         ),
         const SizedBox(height: 45),
-        Row(
+        const Row(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const <Widget>[
+          children: <Widget>[
             SvgLabel(
               assetName: 'assets/svg/mountains.svg',
-              label: 'Prime \nview',
+              label: '',
             ),
             SizedBox(width: 45),
             SvgLabel(
               assetName: 'assets/svg/stars.svg',
-              label: 'Excellent \nquality',
+              label: '',
             ),
             SizedBox(width: 45),
             SvgLabel(
               assetName: 'assets/svg/money.svg',
-              label: 'Good \nprices',
+              label: '',
             ),
           ],
         ),
